@@ -23,8 +23,6 @@ export default class App extends Component {
         {this.state.reviews.map((result) => {
           return (
             <div>
-              <h1>Movie Review</h1>
-              <hr />
               <b>Title</b>
               <h1>{result.display_title}</h1>
               <b>Release date</b>
